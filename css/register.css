@@ -1,0 +1,33 @@
+.register-section {
+  background: url(../images/assets/bg-1.jpg);
+  background-size: cover;
+  min-height: 600px;
+}
+
+@media (max-width: 800px) {
+  .register-section {
+    flex-direction: column;
+  }
+
+  .register-form {
+    margin: 30px auto !important;
+  }
+
+  .register-section .title {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 24px;
+  }
+}
+
+.register-section .title {
+  font-family: "Poppins", sans-serif;
+  margin-left: 10px;
+  color: white;
+}
+
+.register-form {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #fefefe;
+}

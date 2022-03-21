@@ -1,0 +1,27 @@
+.banner-section {
+  align-items: center;
+  background-color: #6c757d;
+  margin: 0;
+  min-height: 600px;
+}
+
+.banner-title {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  max-width: 400px;
+}
+
+.banner-img img {
+  width: 600px;
+}
+
+@media (max-width: 1200px) {
+  .banner-img img {
+    max-width: 300px;
+    margin-left: auto;
+  }
+
+  .banner-title {
+    text-align: center;
+  }
+}

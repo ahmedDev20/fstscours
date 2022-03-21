@@ -1,0 +1,30 @@
+.forgot-section {
+  background: url(../images/assets/bg-1.jpg);
+  background-size: cover;
+  min-height: 500px;
+}
+
+.forgot-form {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #fefefe;
+}
+
+@media (max-width: 992px) {
+  .forgot-form {
+    width: 100% !important;
+    margin: 0 20px !important;
+  }
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}

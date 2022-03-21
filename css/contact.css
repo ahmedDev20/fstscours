@@ -1,0 +1,28 @@
+.contact-section {
+  background: url(../images/assets/bg-1.jpg);
+  background-size: cover;
+  min-height: 600px;
+}
+
+.contact-section .title {
+  font-family: "Poppins", sans-serif;
+  margin-left: 10px;
+  color: white;
+}
+
+.contact-form {
+  border-radius: 10px;
+  padding: 30px 10px;
+  background-color: #fefefe;
+}
+
+.toast {
+  border: none;
+  box-shadow: 2px 3px 20px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 800px) {
+  .contact-section .title {
+    text-align: center;
+  }
+}

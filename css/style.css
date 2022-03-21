@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #eee;
+}
+
+.container {
+  padding: 0;
+  box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Banner */
+.jumbotron {
+  border-radius: 0 !important;
+  background: url(../images/assets/bg.jpg);
+  background-size: cover;
+}
+
+/* Navigation bar */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.nav-item {
+  transition: 300ms;
+}
+
+.btn-login {
+  color: #fff;
+  background-color: #007b5e;
+  border-color: #007b5e;
+}
+
+.btn-login:hover {
+  border-color: #01664e;
+  background-color: #01664e;
+}
+
+@media (max-width: 800px) {
+  .btn-login {
+    margin: 5px 0px !important;
+  }
+}
+
+.footer {
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 15px 20px 0 20px;
+  background-color: #2c3e50;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-menu li {
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 5px 0 5px;
+}
+
+.footer-menu a {
+  color: white;
+  text-decoration: none;
+  transition: 500ms;
+}
+
+.footer-menu a:hover {
+  color: #8f8e8e;
+}

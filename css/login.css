@@ -1,0 +1,36 @@
+.login-section {
+  background: url(../images/assets/bg-1.jpg);
+  background-size: cover;
+  min-height: 500px;
+}
+
+.login-section .title {
+  font-family: "Poppins", sans-serif;
+  margin-left: 10px;
+  color: white;
+}
+
+@media (max-width: 800px) {
+  .login-section .title {
+    text-align: center;
+  }
+}
+
+.password-group {
+  position: relative;
+}
+
+#show-hide {
+  position: absolute;
+  top: 11px;
+  right: 8px;
+  font-size: 18px;
+  color: #495057;
+  cursor: pointer;
+}
+
+.login-form {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #fefefe;
+}

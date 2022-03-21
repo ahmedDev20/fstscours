@@ -1,0 +1,17 @@
+.articles {
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.card {
+  transition: 300ms;
+  height: 465px;
+}
+
+.card-img {
+  height: 200px;
+}
+
+.card:hover {
+  transform: rotateZ(-3deg);
+}
